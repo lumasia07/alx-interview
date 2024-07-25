@@ -3,13 +3,13 @@
 Pascal triangle module
 """
 
+
 def pascal_triangle(n):
     """
     Defines a method pascal triangle with (int): n
     """
     if n <= 0:
         return []
-    
     traingle = [[1]]
 
     for i in range(1, n):
