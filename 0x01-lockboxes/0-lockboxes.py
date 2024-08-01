@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Module to unlock boxes"""
+
+
 def canUnlockAll(boxes):
     """Defines a function to unlock boxes"""
     n = len(boxes)
